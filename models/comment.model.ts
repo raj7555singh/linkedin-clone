@@ -22,7 +22,6 @@ const commentSchema = new mongoose.Schema<ICommentDocument>({
         },
         profilePhoto:{
             type:String,
-            required:true
         },
         firstName:{
             type:String,
